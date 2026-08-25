@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Données volumineuses ou non vérifiées pour la licence
+data/raw/*
+!data/raw/.gitkeep
+*.xlsx
+*.csv
+!**/exemple_*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environnement
+.env
